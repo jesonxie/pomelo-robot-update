@@ -1,3 +1,8 @@
+# add some little feature to enhance the pomelo-robot
+- update socket.io from 0.9.13 to 2.1.0
+
+
+
 # pomelo-robot
 pomelo-robot is a simple tool to benchmark the socket.io server's performance.
 
