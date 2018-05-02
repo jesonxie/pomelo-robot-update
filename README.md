@@ -1,8 +1,10 @@
-# add some little feature to enhance the pomelo-robot
+# update description
+pomelo-robot-update add some little feature to enhance the pomelo-robot :
 - update socket.io from 0.9.13 to 2.1.0
+- update socket.io-client from 0.9.11 to 2.1.0
 - transform es5 to es6
 
-
+The usage of **pomelo-robot-update** is the same as **pomelo-robot**.
 
 # pomelo-robot
 pomelo-robot is a simple tool to benchmark the socket.io server's performance.
@@ -16,14 +18,14 @@ pomelo-robot can be also used in http benchmark with developer script.
 
 ## Installation
 ```
-npm install pomelo-robot
+npm install pomelo-robot-update
 ```
 
 ## Usage
 ``` javascript
 var envConfig = require('./app/config/env.json');
 var config = require('./app/config/' + envConfig.env + '/config');
-var Robot = require('pomelo-robot').Robot;
+var Robot = require('pomelo-robot-update').Robot;
 
 var robot = new Robot(config);
 var mode = 'master';
