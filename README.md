@@ -1,5 +1,6 @@
 # update description
 pomelo-robot-update add some little feature to enhance the pomelo-robot :
+- support node8
 - update socket.io from 0.9.13 to 2.1.0
 - update socket.io-client from 0.9.11 to 2.1.0
 - transform es5 to es6
