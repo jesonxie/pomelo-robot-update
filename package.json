@@ -1,6 +1,6 @@
 {
   "name": "pomelo-robot-update",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Pomelo-robot-update is a fork of 'NetEase pomelo-robot', just add some little feature to enhance the robot.",
   "main": "index.js",
